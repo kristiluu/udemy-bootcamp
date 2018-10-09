@@ -1,0 +1,50 @@
+body {
+    text-align: left;
+    border: 20px solid #bdc3c7;
+    margin: 20px auto;
+    font-family: 'Source Sans Pro', sans-serif;
+    font-size: 15px;
+    /* My original:
+    padding-left: 20px;
+    padding-right: 20px;
+    padding-bottom: 20px;
+    margin: 30px 250px 30px; This only works on fullscreen, but you 
+                             want to make it work when it gets minimized.
+                             Hence, the max-width and width. */
+    padding: 20px; /* Makes it so that all 4 sides are 20px */
+    /* Things you didn't do */
+    max-width: 700px;
+    width: 80%;
+}
+
+h2 {
+    color: #2c3e50;
+    font-size: 2.0rem;
+}
+
+.date {
+    color: #3498db;
+    text-transform: uppercase;
+    font-size: 15px;
+    letter-spacing: 0.2rem;
+    /* letter-spacing: 2px;
+        Can use rem; set by the root element of the page
+        Do proportional fonts without worrying about nesting. */
+}
+
+hr {
+    color: lightgrey;
+    border: 0;
+    height: 0;
+    border-top: 1px solid rgba(0, 0, 0, 0.1);
+    border-bottom: 1px solid rgba(255, 255, 255, 0.3);
+}
+
+.blockquote {
+    border-left: 5px solid #bdc3c7;
+    padding-left: 5px;
+}
+
+.post {
+    margin-bottom: 20px;
+}
