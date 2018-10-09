@@ -1,0 +1,15 @@
+img {
+    width: 30%;
+    float: left;
+    margin: 1.66%;
+}
+
+h1 {
+    font-family: 'Nunito Sans', sans-serif;
+    margin: 1.66%;
+    font-size: 35px;
+    font-weight: 800;
+    border-bottom: 1px solid lightgrey;
+    width: 30%;
+}
+
