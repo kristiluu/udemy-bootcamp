@@ -1,0 +1,28 @@
+body {
+    padding-top: 90px;
+}
+
+#jumbo {
+    background-color: #f8f9fa;
+}
+
+h1 {
+    color: #6c757d;
+}
+
+.img-thumbnail {
+    padding: 4px;
+    margin-bottom: 20px;
+}
+
+#btn-outline {
+    border: 1px solid #ced4da;
+}
+
+#btn-outline:hover {
+    color: white;
+}
+
+.fas {
+    color: #6c757d;
+}
