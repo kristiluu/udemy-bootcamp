@@ -1,0 +1,47 @@
+body {
+    background: url(https://imagizer.imageshack.com/v2/735x490q90/r/922/53V7C8.jpg);
+    background-size: cover;
+    background-position: center;
+    font-family: 'Mukta', sans-serif;
+    background-repeat: no-repeat;
+    color: white;
+}
+
+html {
+    height: 100%;
+}
+ 
+.navbar {
+    background-color: white;
+}
+
+#content {
+    text-align: center;
+    padding-top: 9%;
+}
+
+.btn {
+    background-color: rgba(255, 255, 255, 0);
+    color: white;
+    border: 2px solid white;
+}
+
+.btn:hover {
+    background-color: #bdeffa; 
+    color: white;
+    border: 2px solid white;
+}
+
+.navbar-light .navbar-nav .nav-link:hover {
+    color: #77def4;
+}
+
+h1 {
+    font-weight: 700;
+    font-size: 4em;
+}
+
+hr {
+    width: 400px;
+    border-top: 1px solid white;
+}
