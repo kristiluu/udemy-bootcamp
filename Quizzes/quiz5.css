@@ -1,0 +1,31 @@
+td {
+    width: 100px;
+    height: 100px;
+}
+
+table {
+    margin: auto;
+}
+
+h1 {
+    text-align: center;
+}
+
+tr, td:nth-child(even) {
+    border-left: 1px solid black;
+    border-right: 1px solid black;
+    text-align: center;
+}
+
+tr:nth-child(even) td {
+    border-top: 1px solid black;
+    border-bottom: 1px solid black;
+}
+
+/*BONUS*/
+td:hover {
+    border: 1px solid grey;
+}
+
+/* The professor used classes for each row or column to make them get borders and what not,
+   but this solution works too. */
